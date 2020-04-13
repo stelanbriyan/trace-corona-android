@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "918752461603",
+    "firebase_url": "https://tracesrilanka-796f2.firebaseio.com",
+    "project_id": "tracesrilanka-796f2",
+    "storage_bucket": "tracesrilanka-796f2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:918752461603:android:c558ce12bd17dd26718296",
+        "android_client_info": {
+          "package_name": "io.bluetrace.opentrace"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "918752461603-2bj0hq4ls3541fcpobq8v4a776vn4c36.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBZKiiAuffVQ0MznLgo8M90Hs71FhEun0U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "918752461603-2bj0hq4ls3541fcpobq8v4a776vn4c36.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:918752461603:android:2377fd37a6840800718296",
+        "android_client_info": {
+          "package_name": "io.bluetrace.opentrace.stg"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "918752461603-2bj0hq4ls3541fcpobq8v4a776vn4c36.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBZKiiAuffVQ0MznLgo8M90Hs71FhEun0U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "918752461603-2bj0hq4ls3541fcpobq8v4a776vn4c36.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
