@@ -22,7 +22,7 @@ class RegisterNumberFragment : OnboardingFragmentInterface() {
 
     private var mView: View? = null
 
-    override fun getButtonText(): String = "Get OTP"
+    override fun getButtonText(): String = "ඔබේ OTP ඇතුලත් කරන්න"
 
     override fun becomesVisible() {
         CentralLog.d(TAG, "becomes visible")

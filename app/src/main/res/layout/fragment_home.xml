@@ -30,7 +30,7 @@
                 <androidx.constraintlayout.widget.ConstraintLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:background="@color/light_blue"
+                    android:background="@color/white"
                     android:orientation="vertical"
                     android:paddingLeft="16dp"
                     android:paddingRight="16dp"
@@ -67,12 +67,14 @@
                     style="@style/OnboardingTitle"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:textSize="20dp"
                     android:text="@string/how_to_help" />
 
                 <androidx.appcompat.widget.AppCompatTextView
                     style="@style/OnboardingDesc"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:textSize="15dp"
                     android:text="@string/help_action" />
 
             </LinearLayout>

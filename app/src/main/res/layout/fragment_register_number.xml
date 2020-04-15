@@ -20,6 +20,7 @@
             style="@style/OnboardingTitle"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:textSize="20dp"
             android:text="@string/register_number"
             android:textStyle="bold" />
 
@@ -27,12 +28,14 @@
             style="@style/OnboardingDesc"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:textSize="15dp"
             android:text="@string/register_number_details" />
 
         <androidx.appcompat.widget.AppCompatTextView
             style="@style/OnboardingSubDesc"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:textSize="10dp"
             android:text="@string/register_number_family" />
 
     </LinearLayout>
@@ -56,7 +59,7 @@
             android:layout_height="wrap_content"
             android:text="@string/mobile_number"
             android:textColor="@color/grey_2"
-            android:textSize="18sp"
+            android:textSize="15sp"
             android:textStyle="bold"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintTop_toTopOf="parent" />

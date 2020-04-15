@@ -5,25 +5,25 @@
     <string name="permission_write_rationale">TraceSriLanka needs save files for logs (Debug builds only)</string>
     <string name="ble_not_supported">This device does not support BLE</string>
 
-    <string name="tv_onboarding_title">Help stop the spread of COVID-19 by turning Bluetooth on</string>
-    <string name="tv_onboarding_desc">If you had close contact with a COVID-19 case, we help the health authorities call you more quickly, to provide guidance and care.</string>
-    <string name="tv_onboarding_desc_sub">To protect those around you, OTC may also ask you to share your data.</string>
-    <string name="i_want_to_help">I want to help</string>
+    <string name="tv_onboarding_title">Bluetooth සක්‍රිය කිරීමෙන් COVID-19 පැතිරීම නැවැත්වීමට උදව් වන්න.</string>
+    <string name="tv_onboarding_desc">ඔබට සමීප සම්බන්ධතාවයකින් ආසාදනය වූ COVID-19 තිබේ නම්, අපි ඔබට සෞඛ්‍ය සේවා නිලධාරියෙකුගේ මග පෙන්වීම සහ රැකවරණය ලබා දෙන්නෙමු.</string>
+    <string name="tv_onboarding_desc_sub">ඔබ අවට සිටින අය ආරක්ෂා කිරීම සඳහා, ඔබේ දත්ත බෙදා ගැනීමට OTC ඔබෙන් ඉල්ලා සිටිය හැකිය.</string>
+    <string name="i_want_to_help">මම උදව් කරන්න කැමතියි.</string>
 
-    <string name="tv_howitworks_title">How TraceSriLanka works</string>
-    <string name="tv_howitworks_explanation_1">We use Bluetooth signals to determine if you are near another TraceSriLanka user.</string>
-    <string name="tv_howitworks_explanation_2">This proximity data is encrypted and stored only on your phone.</string>
-    <string name="tv_howitworks_explanation_3">OTC will seek your consent to upload the data, if it\'s needed for contact tracing.</string>
-    <string name="mobile_number">Mobile number</string>
-    <string name="register_number">Register your mobile number</string>
-    <string name="register_number_details">We\'ll contact you if you had close contact with a COVID-19 case.</string>
-    <string name="register_number_family">Setting up for your family? \nUse their number instead of yours.</string>
+    <string name="tv_howitworks_title">මෙම යෙදුම ක්‍රියාත්මක වන ආකාරය.</string>
+    <string name="tv_howitworks_explanation_1">ඔබ වෙනත් පරිශීලකයෙකු අසල සිටී දැයි තීරණය කිරීමට අපි බ්ලූටූත් භාවිතා කරමු.</string>
+    <string name="tv_howitworks_explanation_2">මෙම සමීප දත්ත සංකේතනය කර ඔබගේ දුරකථනයේ පමණක් ගබඩා කර ඇත.</string>
+    <string name="tv_howitworks_explanation_3">සම්බන්ධතා සොයා ගැනීම සඳහා අවශ්‍ය නම්, දත්ත උඩුගත කිරීමට OTC ඔබේ කැමැත්ත ලබා ගනී.</string>
+    <string name="mobile_number">දූරකථන අංකය</string>
+    <string name="register_number">ඔබේ ජංගම දුරකථන අංකය ලියාපදිංචි කරන්න.</string>
+    <string name="register_number_details">ඔබට COVID-19 ආසාදිතයෙකු සමඟ සමීප සම්බන්ධතාවයක් ඇත්නම් අපි ඔබව සම්බන්ධ කර ගනිමු.</string>
+    <string name="register_number_family">ඔබේ පවුල වෙනුවෙන් පිහිටුවීමට ඔබේ අංකය වෙනුවට ඔවුන්ගේ අංකය භාවිතා කරන්න.</string>
     <string name="invalid_length">Needs to be 8-digits</string>
     <string name="invalid_number">Invalid Mobile Number</string>
 
-    <string name="enter_otp">Enter your OTP</string>
-    <string name="otp_sent">A 6-digit code has been sent to %s.</string>
-    <string name="resend_code"><u>Resend Code</u></string>
+    <string name="enter_otp">ඔබේ OTP ඇතුලත් කරන්න.</string>
+    <string name="otp_sent">ඉලක්කම් 6 කින් යුත් කේතයක් %s වෙත යවා ඇත.</string>
+    <string name="resend_code"><u>කේතය නැවත යවන්න</u></string>
 
     <string name="setup_app_permission">\Set up app permissions</string>
     <string name="setup_app_permission_title">Select \'<b>Yes</b>\' or \'<b>Allow</b>\' for the next few screens to set up.</string>
@@ -31,29 +31,29 @@
     <string name="location_permissions">2. Location Permissions</string>
     <string name="battery_optimiser_opt">3. Battery Optimiser</string>
     <string name="notes">Android needs Location Permissions for Bluetooth to work. We don\'t have access to your physical location.</string>
-    <string name="proceed">Proceed</string>
+    <string name="proceed">ඉදිරියට යන්න</string>
     <string name="continue_">Continue</string>
-    <string name="get_otp">Get OTP</string>
-    <string name="wrong_number"><u>Wrong Number?</u></string>
-    <string name="app_permission_fully_setup">App permissions are fully set up</string>
-    <string name="app_permission_fully_setup_desc">Please leave all settings on until the outbreak ends.</string>
+    <string name="get_otp">OTP ලබා ගන්න</string>
+    <string name="wrong_number"><u>වැරදි අංකයක්ද?</u></string>
+    <string name="app_permission_fully_setup">යෙදුම් අවසරයන් සම්පූර්ණයෙන්ම සකසා ඇත</string>
+    <string name="app_permission_fully_setup_desc">කරුණාකර සියලු සැකසුම් අවසානය දක්වා තබන්න.</string>
 
-    <string name="send_otp">We\'ll text you a One-Time Pin (OTP)</string>
+    <string name="send_otp">අපි ඔබට එක් වරක් පින් (OTP) යවනවා</string>
 
     <string name="title_home">Home</string>
     <string name="title_upload">Upload</string>
     <string name="title_help">Help</string>
 
-    <string name="how_to_help">How you can help stop the spread of COVID-19</string>
-    <string name="help_action">Keep app open, and let it run in the background until the end of the outbreak</string>
+    <string name="how_to_help">COVID-19 පැතිරීම නැවැත්වීමට ඔබ උදව් කරන්නේ කෙසේද?</string>
+    <string name="help_action">යෙදුම විවෘතව තබා එය අවසානය දක්වා පසුබිමේ ධාවනය කිරීමට ඉඩ දෙන්න.</string>
 
     <string name="app_permission_status">App Permissions Status</string>
     <string name="bluetooth_on">Bluetooth: On</string>
     <string name="location_on">Location Permission: On</string>
     <string name="battery_optimiser">Battery Optimisation: Off</string>
     <string name="push_noti">Push Notification: On</string>
-    <string name="share_this_app">Share this app</string>
-    <string name="ask_friend">Ask friends and family to help</string>
+    <string name="share_this_app">මෙම යෙදුම බෙදාගන්න.</string>
+    <string name="ask_friend">උදව් කිරීමට මිතුරන්ගෙන් සහ පවුලේ අයගෙන් ඉල්ලා සිටින්න.</string>
     <string name="help_us_identify">Help stop the virus spread by allowing all permissions</string>
     <string name="restart_app_setup">Complete app setup</string>
     <string name="upload_data">Upload Data</string>

@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/white"
     tools:context=".onboarding.OnboardingActivity">
 
 
@@ -30,6 +31,7 @@
         android:gravity="left"
         android:text="@string/tv_howitworks_title"
         android:visibility="visible"
+        android:textSize="20dp"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/on_boarding_banner" />
@@ -40,6 +42,7 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:gravity="left"
+        android:textSize="15dp"
         android:text="@string/tv_howitworks_explanation_1"
         android:visibility="visible"
         app:layout_constraintLeft_toLeftOf="parent"
@@ -50,6 +53,7 @@
         android:id="@+id/tv_desc2"
         style="@style/OnboardingDesc"
         android:layout_width="0dp"
+        android:textSize="15dp"
         android:layout_height="wrap_content"
         android:gravity="left"
         android:text="@string/tv_howitworks_explanation_2"
@@ -66,6 +70,7 @@
         android:gravity="left"
         android:text="@string/tv_howitworks_explanation_3"
         android:visibility="visible"
+        android:textSize="15dp"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tv_desc2" />
@@ -83,7 +88,7 @@
         android:textFontWeight="600"
         android:fontFamily="@font/font"
         android:textSize="18sp"
-        android:text="Great!!!"
+        android:text="ඊළඟ පියවර"
         android:textColor="#fff"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
