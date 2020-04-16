@@ -211,7 +211,7 @@ class EnterPinFragment : Fragment() {
 
         var mapData: MutableMap<String, Any> = HashMap()
         mapData["tempId"] = TempIDManager.retrieveTemporaryID(context)?.tempID as Any
-        mapData["records"] = updatedDeviceList as Any
+        mapData["recordsets"] = updatedDeviceList as Any
         val sendUploadData = sendUploadData(mapData);
         println(mapData)
 
