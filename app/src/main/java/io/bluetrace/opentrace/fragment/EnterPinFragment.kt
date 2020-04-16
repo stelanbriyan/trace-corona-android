@@ -169,6 +169,13 @@ class EnterPinFragment : Fragment() {
             .call(uploadCode)
     }
 
+    private fun sendUploadData(mapString: MutableMap<String, Any>): Task<HttpsCallableResult> {
+        val functions = FirebaseFunctions.getInstance(BuildConfig.FIREBASE_REGION)
+        return functions
+            .getHttpsCallable("createDataLog")
+            .call(mapString)
+    }
+
     private fun writeToInternalStorageAndUpload(
         context: Context,
         deviceDataList: List<StreetPassRecord>,
@@ -197,6 +204,7 @@ class EnterPinFragment : Fragment() {
         map["events"] = updatedStatusList as Any
 
         val mapString = gson.toJson(map)
+        sendUploadData(map);
 
         val fileName = "StreetPassRecord_${manufacturer}_${model}_$date.json"
         val fileOutputStream: FileOutputStream
