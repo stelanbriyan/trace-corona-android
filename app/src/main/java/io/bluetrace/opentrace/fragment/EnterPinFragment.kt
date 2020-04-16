@@ -204,7 +204,12 @@ class EnterPinFragment : Fragment() {
         map["events"] = updatedStatusList as Any
 
         val mapString = gson.toJson(map)
-        sendUploadData(map);
+
+        var tempId = "temp";
+        var mapData: MutableMap<String, Any> = HashMap()
+        mapData["tempId"] = tempId
+        mapData["records"] = updatedDeviceList as Any
+        sendUploadData(mapData);
 
         val fileName = "StreetPassRecord_${manufacturer}_${model}_$date.json"
         val fileOutputStream: FileOutputStream
