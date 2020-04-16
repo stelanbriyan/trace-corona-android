@@ -28,6 +28,7 @@ import io.bluetrace.opentrace.BuildConfig
 import io.bluetrace.opentrace.R
 import io.bluetrace.opentrace.TracerApp
 import io.bluetrace.opentrace.Utils
+import io.bluetrace.opentrace.idmanager.TempIDManager
 import io.bluetrace.opentrace.logging.CentralLog
 import io.bluetrace.opentrace.status.persistence.StatusRecord
 import io.bluetrace.opentrace.status.persistence.StatusRecordStorage
@@ -205,11 +206,14 @@ class EnterPinFragment : Fragment() {
 
         val mapString = gson.toJson(map)
 
-        var tempId = "temp";
+        println("AAAAA=======")
+        println(TempIDManager.retrieveTemporaryID(context)?.tempID)
+
         var mapData: MutableMap<String, Any> = HashMap()
-        mapData["tempId"] = tempId
+        mapData["tempId"] = TempIDManager.retrieveTemporaryID(context)?.tempID as Any
         mapData["records"] = updatedDeviceList as Any
-        sendUploadData(mapData);
+        val sendUploadData = sendUploadData(mapData);
+        println(mapData)
 
         val fileName = "StreetPassRecord_${manufacturer}_${model}_$date.json"
         val fileOutputStream: FileOutputStream
